@@ -1,10 +1,10 @@
-title: Stack Problems
+title: Notes & Stuff
 description: My Personal Stack Problems
-author: Agus Makmun
-github: https://github.com/agusmakmun
-about: I'm Programmer for Python & Django. I've made quite a few web apps, especially on Django.
-disqus_shortname: stackproblems
-google_analytics: UA-XXXXXXXX-Y
+author: Nicolas Landier
+github: https://github.com/landier
+about: 
+disqus_shortname: nlandier
+google_analytics: UA-150453836-1
 
 enableTags: true
 tagarray: []
