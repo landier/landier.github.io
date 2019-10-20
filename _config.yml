@@ -15,16 +15,16 @@ collections:
     permalink: /project/:path/
 
 social:
-    - icon: fa-facebook
-      link: "#"
+#    - icon: fa-facebook
+#      link: "#"
     - icon: fa-twitter
-      link: "#"
+      link: "https://twitter.com/landier"
     - icon: fa-linkedin
-      link: "#"
-    - icon: fa-stack-exchange
-      link: "#"
+      link: "https://www.linkedin.com/in/landier/"
+#    - icon: fa-stack-exchange
+#      link: "#"
     - icon: fa-github
-      link: "https://github.com/agusmakmun"
+      link: "https://github.com/landier"
 
 share:
   twitter_username: github.io
