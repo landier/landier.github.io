@@ -2,7 +2,7 @@
 layout: post
 title: How to run an unattended Ubuntu install
 date:   2017-12-29 00:00:00 +0200
-categories: [Linux]
+categories: [linux]
 ---
 
 # How to run an unattended Ubuntu install
