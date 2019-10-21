@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to test your Ansible playbook using Docker
-date:   2017-10-18 00:00:00 +0200
+date:   2019-10-18 00:00:00 +0200
 categories: [linux,docker,ansible]
 ---
 
