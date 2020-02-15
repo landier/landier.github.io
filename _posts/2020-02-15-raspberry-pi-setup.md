@@ -1,7 +1,7 @@
 ---
 layout: post
-title: How to run an unattended Ubuntu install
-date:   2017-12-29 00:00:00 +0200
+title: How to make Rasperry Pi boot on USB
+date:   2020-02-15 00:00:00 +0200
 categories: [linux, raspberry]
 ---
 
