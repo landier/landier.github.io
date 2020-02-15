@@ -8,7 +8,13 @@ categories: [linux, raspberry]
 _Goal of this post is to sum up the the steps to end up with a USB booted Raspberry Pi on Fedora - all prepared on Mac OS._
 
 # Prepare SD card
-* Raspbian SD card
+```
+curl -L -o raspbian-lite.img.zip https://downloads.raspberrypi.org/raspbian_lite_latest
+unzip raspbian-lite.img.zip
+sudo diskutil unmountDisk /dev/disk2
+sudo dd bs=1m if=raspbian-lite.img of=/dev/rdisk2 conv=syn
+
+```
 
 # Prepare USB pendrive with Fedora
 Format USB pendrive then:
