@@ -46,6 +46,6 @@ growpart /dev/sda 3
 resize2fs /dev/sda3
 ```
 
-Sources:
+# Sources
 * https://www.raspberrypi.org/documentation/hardware/raspberrypi/bootmodes/msd.md
 * https://fedoraproject.org/wiki/Architectures/ARM/Raspberry_Pi
