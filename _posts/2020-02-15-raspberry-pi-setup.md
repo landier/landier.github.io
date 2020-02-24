@@ -42,6 +42,7 @@ You now can plug the USB pendrive and remove the SD card, then reboot and procee
 # Resize disk
 Once you're done, do not forget to expand root partition on USB pendrive:
 ```
+sudo su
 growpart /dev/sda 3
 resize2fs /dev/sda3
 ```
