@@ -41,4 +41,5 @@ AllowedIPs = 192.168.84.2/24
 ```
 
 # Sources
-https://www.ckn.io/blog/2017/11/14/wireguard-vpn-typical-setup/
+* https://github.com/complexorganizations/wireguard-manager
+* https://www.ckn.io/blog/2017/11/14/wireguard-vpn-typical-setup/
