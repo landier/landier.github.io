@@ -1,0 +1,11 @@
+---
+layout: post
+title: Install Wireguard VPN on Raspberry Pi
+date:   2020-02-24 00:00:00 +0200
+categories: [linux, raspberry]
+---
+
+```
+sudo dnf -y install kernel-headers kernel-devel
+sudo dnf -y qrencode wireguard-tools haveged
+```
