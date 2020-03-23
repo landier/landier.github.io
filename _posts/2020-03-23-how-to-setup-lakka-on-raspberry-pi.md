@@ -37,13 +37,34 @@ Once started, first thing to do on the GUI is to enable these three services via
 * Bluetooth
 
 # Connect to Wi-Fi
+Connect the Pi to the Wi-Fi network via the GUI.
 
 # Transfer your ROMs
 Via Samba (or scp), just transfer all your beloved ROMs into /storage/roms folder.
 Via the GUI make sure to trigger a scan of the /storage/roms directory.
 
 # Pair your Bluetooh controller
+Over SSH, do pair the Bluetooth controller by starting the Bluetooth CLI:
+```
+bluetoothctl
+```
 
+and issue following commands:
+```
+agent on
+default-agent
+power on
+discoverable on
+pairable on
+scan on
+```
+
+Then enable the pairing on the controller to identify the MAC address and:
+```
+connect <MAC address>
+trust <MAC address>
+```
 
 Sources:
 * https://forums.libretro.com/t/raspberry-pi-3-usb-boot/12172/14
+* [Pairing 8Bitdo controller over Bluetooth](https://www.lakka.tv/doc/8Bitdo-Wireless-Controller/)
