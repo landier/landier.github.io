@@ -20,12 +20,13 @@ sudo dd if=Lakka-RPi2.arm-2.3.2.img of=/dev/rdisk2 && sync
 
 The small but important particularity with the USB drive way is to edit the bootloader configuration which is the cmdline.txt file for Raspberry Pi. For that simply edit the cmdline.txt file on your USB drive from:
 ```
-boot=LABEL=LAKKA disk=LABEL=LAKKA_DISK KERNEL_IMAGE=kernel.img quiet vt.global_cursor_default=0 loglevel=2
+boot=LABEL=LAKKA disk=LABEL=LAKKA_DISK BOOT_IMAGE=/kernel.img quiet  vt.global_cursor_default=0 loglevel=2
 ```
 
 to:
 ```
-boot=/dev/sda1 disk=/dev/sda2 quiet vt.global_cursor_default=0 loglevel=2
+boot=/dev/sda1 disk=/dev/sda2 quiet  vt.global_cursor_default=0 loglevel=2
+```
 
 Once done, you're good to go on your Raspberry Pi.
 
