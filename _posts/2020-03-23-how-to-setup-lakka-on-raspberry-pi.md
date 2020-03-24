@@ -28,7 +28,7 @@ to:
 boot=/dev/sda1 disk=/dev/sda2 quiet  vt.global_cursor_default=0 loglevel=2
 ```
 
-Once done, you're good to go on your Raspberry Pi.
+Once done, you're good to boot your Raspberry Pi using the USB drive.
 
 # Enable services: SSH, Samba and Bluetooth
 Once started, first thing to do on the GUI is to enable these three services via the menu Settings > Services:
