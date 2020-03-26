@@ -65,6 +65,12 @@ connect <MAC address>
 trust <MAC address>
 ```
 
+# Set the timezone
+```
+echo "TIMEZONE=Europe/Paris" > /storage/.cache/timezone
+```
+
 Sources:
 * https://forums.libretro.com/t/raspberry-pi-3-usb-boot/12172/14
 * [Pairing 8Bitdo controller over Bluetooth](https://www.lakka.tv/doc/8Bitdo-Wireless-Controller/)
+* [Timezone settings](https://www.lakka.tv/doc/Timezone-settings/)
