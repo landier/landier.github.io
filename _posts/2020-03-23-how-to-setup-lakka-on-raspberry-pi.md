@@ -5,8 +5,6 @@ date:   2020-03-23 00:00:00 +0200
 categories: [linux, raspberry]
 ---
 
-__Work In Progress__
-
 Here is a walkthrough to quickly have [Lakka](http://www.lakka.tv/) up and running on a Raspberry Pi.
 
 # Flash Lakka on a USB drive
