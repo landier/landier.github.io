@@ -20,12 +20,11 @@ sudo dd bs=1m if=raspbian-lite.img of=/dev/rdisk2 conv=syn
 Format USB pendrive then:
 ```
 cd /tmp
-curl -o Fedora-Minimal-armhfp-31-1.9-sda.raw.xz https://download.fedoraproject.org/pub/fedora/linux/releases/31/Spins/armhfp/images/Fedora-Minimal-armhfp-31-1.9-sda.raw.xz
-unxz Fedora-Minimal-armhfp-31-1.9-sda.raw.xz
+curl -o Fedora-Minimal-31-1.9.aarch64.raw.xz https://dl.fedoraproject.org/pub/fedora-secondary/releases/31/Spins/aarch64/images/Fedora-Minimal-31-1.9.aarch64.raw.xz
+unxz Fedora-Minimal-31-1.9.aarch64.raw.xz
 sudo diskutil unmountDisk /dev/disk2
-sudo dd bs=1m if=Fedora-Minimal-armhfp-31-1.9-sda.raw of=/dev/rdisk2 conv=syn
+sudo dd bs=1m if=Fedora-Minimal-31-1.9.aarch64.raw of=/dev/rdisk2 conv=syn
 ```
-Edit: I switched to the armv7 version because the aarch64 kernel has a tendency for a high load (with low CPU usage). Looks like this issue https://github.com/raspberrypi/linux/issues/2881 which has been solved with kernel 5.0.0 on arvm7.
 
 # First boot on Raspbian SD card
 ```
