@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to make Rasperry Pi boot on USB
+title: How to setup a new Rasperry Pi
 date:   2020-02-15 00:00:00 +0200
 categories: [linux, raspberry]
 ---
