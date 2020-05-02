@@ -1,0 +1,12 @@
+---
+layout: post
+title: Install Wireguard VPN on Raspberry Pi
+date:   2020-02-24 00:00:00 +0200
+categories: [linux, raspberry, fedora]
+---
+
+# Commands
+```bash
+sudo su
+dnf install wireguard-tools
+```
