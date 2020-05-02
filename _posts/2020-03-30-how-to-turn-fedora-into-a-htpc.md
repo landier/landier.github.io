@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to turn Fedora into a HTPC
-date:   20120-03-30 00:00:00 +0200
+date:   2020-03-30 00:00:00 +0200
 categories: [linux, fedora]
 ---
 
