@@ -17,6 +17,14 @@ brew install ack \
              openssl \
              yadm
 
+# Powerline fonts
+git clone https://github.com/powerline/fonts.git --depth=1
+cd fonts
+./install.sh
+cd ..
+rm -rf fonts
+
+# Install cask apps
 brew cask install balenaetcher \
                   bitwarden \
                   brave-browser-beta \
