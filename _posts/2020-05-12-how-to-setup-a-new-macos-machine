@@ -6,8 +6,36 @@ categories: [linux, macos]
 ---
 
 ```bash
+curl -s "https://get.sdkman.io" | bash
+
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
-brew install bitwarden-cli yadm ack openssl gpg
-brew cask install hyper zoomus slack spotify dropbox onedrive firefox-beta google-chrome-beta intellij-idea bitwarden vlc sourcetree brave-browser-beta dbeaver-community p4v microsoft-excel microsoft-word microsoft-powerpoint onedrive ledger-live keka balenaetcher visual-studio-code-insiders
+brew install ack \
+             bitwarden-cli \
+             gpg \
+             openssl \
+             yadm
+
+brew cask install balenaetcher \
+                  bitwarden \
+                  brave-browser-beta \
+                  dbeaver-community \
+                  dropbox \
+                  firefox-beta \
+                  google-chrome-beta \
+                  hyper \
+                  intellij-idea \
+                  keka \
+                  ledger-live \
+                  microsoft-excel \
+                  microsoft-powerpoint \
+                  microsoft-word \
+                  onedrive \
+                  p4v \
+                  slack \
+                  sourcetree \
+                  spotify \
+                  visual-studio-code-insiders \
+                  vlc \
+                  zoomus
 ```
