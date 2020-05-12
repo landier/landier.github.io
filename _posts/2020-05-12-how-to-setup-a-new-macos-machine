@@ -12,6 +12,7 @@ curl -s "https://get.sdkman.io" | bash
 
 brew install ack \
              bitwarden-cli \
+             git-review \
              gpg \
              openssl \
              yadm
