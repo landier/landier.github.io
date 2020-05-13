@@ -25,7 +25,8 @@ cd ..
 rm -rf fonts
 
 # Install cask apps
-brew cask install balenaetcher \
+brew cask install aerial \
+                  balenaetcher \
                   bitwarden \
                   brave-browser-beta \
                   dbeaver-community \
