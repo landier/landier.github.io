@@ -35,11 +35,14 @@ brew cask install aerial \
                   google-chrome-beta \
                   hyper \
                   intellij-idea \
+                  iterm2-beta \
                   keka \
+                  keybase \
                   ledger-live \
                   microsoft-excel \
                   microsoft-powerpoint \
                   microsoft-word \
+                  obinslab-starter \
                   onedrive \
                   p4v \
                   slack \
