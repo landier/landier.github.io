@@ -12,6 +12,7 @@ curl -s "https://get.sdkman.io" | bash
 
 brew install ack \
              bitwarden-cli \
+             docker-compose \
              git-review \
              gpg \
              openssl \
@@ -30,6 +31,7 @@ brew cask install aerial \
                   bitwarden \
                   brave-browser-beta \
                   dbeaver-community \
+                  docker-edge \
                   dropbox \
                   firefox-beta \
                   google-chrome-beta \
