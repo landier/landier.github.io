@@ -33,7 +33,12 @@ ansible-playbook local.yml -c localhost --ask-become-pass
 # The old way
 
 ```bash
-dnf install fedora-workstation-repositories
-dnf config-manager --set-enabled google-chrome
-dnf install google-chrome-beta
+sudo dnf install fedora-workstation-repositories
+sudo dnf config-manager --set-enabled google-chrome
+sudo dnf install google-chrome-beta
+
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'
+sudo dnf check-update
+sudo dnf install code-insiders
 ```
