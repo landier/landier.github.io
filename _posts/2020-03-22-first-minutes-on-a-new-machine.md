@@ -29,3 +29,11 @@ Open a terminal and execute this:
 git clone https://github.com/landier/playbooks
 ansible-playbook local.yml -c localhost --ask-become-pass
 ```
+
+# The old way
+
+```bash
+dnf install fedora-workstation-repositories
+dnf config-manager --set-enabled google-chrome
+dnf install google-chrome-beta
+```
