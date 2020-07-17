@@ -44,6 +44,7 @@ brew cask install aerial \
                   microsoft-excel \
                   microsoft-powerpoint \
                   microsoft-word \
+                  monitorcontrol \
                   obinslab-starter \
                   onedrive \
                   p4v \
